@@ -30,8 +30,8 @@ def get_pressure(data, date):
     return None
 
 def main():
-    location = "London"  # Replace with the desired location
-    api_key = "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"  # Replace with your actual API key
+    location = "London"
+    api_key = "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"
     data = get_weather_data(location, api_key)
     
     if data:
